@@ -93,4 +93,9 @@ let x = ScrollReveal({
 
 ScrollReveal().reveal('.container, .header-text', { origin: 'top' });
 ScrollReveal().reveal(' .header-text h1, .about-col-2 ', { origin: 'left' });
-console.log('Welcome');
+
+const newF = function () {
+  console.log('Welcome here');
+};
+
+newF();
